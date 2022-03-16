@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1C5C2"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/CV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="your CV"
+        android:textColor="#2A4488"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/acme"
+        android:text="name"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/acme"
+        android:text="name"
+        android:textColor="#192940"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Age_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="@null"
+        android:background="#F6F0F0"
+        android:fontFamily="@font/acme"
+        android:gravity="center_horizontal"
+        android:text="age"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Age1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@null"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/acme"
+        android:gravity="center_horizontal"
+        android:text="age"
+        android:textColor="#192940"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/jop_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="@null"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/acme"
+        android:text="your jop"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/jop_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@null"
+        android:fontFamily="@font/acme"
+        android:text="your jop"
+        android:textColor="#192940"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Phone_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="@null"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/acme"
+        android:text="phone number"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Phone_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@null"
+        android:fontFamily="@font/acme"
+        android:text="phone number"
+        android:textColor="#192940"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Email_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="@null"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/acme"
+        android:text="email"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@null"
+        android:fontFamily="@font/acme"
+        android:text="email"
+        android:textColor="#192940"
+        android:textSize="27sp" />
+
+</LinearLayout>
